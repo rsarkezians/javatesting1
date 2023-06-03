@@ -5,7 +5,7 @@ public class Test {
 	public static void main (String args[])
 	{
 		System.out.println ("First Test Java");
-		System.out.println ("This is second line");
+		System.out.println ("This is second line OK");
 	}
 
 }
