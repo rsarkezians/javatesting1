@@ -9,4 +9,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          browser: chrome --headless --disable-gpu
+          browser: chrome 
