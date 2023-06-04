@@ -14,7 +14,7 @@ describe ('sample app', () => {
 	it ('another test', () => {
 		
 		const array1 = [1,2,3]
-		const array2 = [4,2,1]
+		const array2 = [3,2,1]
 		cy.arrayReverseCompare(array1,array2).then( (value) => {
 			expect(value).to.be.true
 		})
